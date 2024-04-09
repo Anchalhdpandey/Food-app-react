@@ -8,8 +8,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Meal />}/>
-        <Route path="/:MealId" element={<RecipeInfo/>}/>
+        {/* <Route path="/:MealId" element={<RecipeInfo/>}/> */}
       </Routes>
+      <RecipeInfo/>
     </>
   );
 }
